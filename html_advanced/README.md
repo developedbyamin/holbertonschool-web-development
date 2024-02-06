@@ -23,7 +23,10 @@ This README provides information for understanding the project's structure, key 
 - Fork the repository, create a new branch, and make your changes.
 - Adhere to code style conventions (if any).
 - Submit a pull request with clear descriptions of your changes.
+```
 
 ## Snapshots
 
 ![image](https://github.com/developedbyamin/holbertonschool-web-development/blob/main/html_advanced/assets/Screenshot%20from%202024-02-06%2019-29-05.png?raw=true)
+
+

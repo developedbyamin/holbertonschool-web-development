@@ -16,7 +16,6 @@ This README provides information for understanding the project's structure, key 
    git clone https://github.com/developedbyamin/holbertonschool-web-development.git
 
 
-
 **Contribution Guidelines**
 
 ```markdown
@@ -26,4 +25,4 @@ This README provides information for understanding the project's structure, key 
 - Submit a pull request with clear descriptions of your changes.
 
 
-![alt text](assets/school_page.png)
+![alt text](html_advanced/assets/school_page.png)

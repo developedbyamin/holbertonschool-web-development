@@ -25,4 +25,4 @@ This README provides information for understanding the project's structure, key 
 - Submit a pull request with clear descriptions of your changes.
 
 
-![alt text](html_advanced/assets/school_page.png)
+![Alt text](html_advanced/assets/school_page.png)

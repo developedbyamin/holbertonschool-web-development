@@ -25,4 +25,4 @@ This README provides information for understanding the project's structure, key 
 - Submit a pull request with clear descriptions of your changes.
 
 
-![Alt text](assets/school_page.png)
+![image](https://github.com/developedbyamin/holbertonschool-web-development/blob/main/html_advanced/assets/school_page.png?raw=true)

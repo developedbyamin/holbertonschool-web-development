@@ -13,9 +13,8 @@ This README provides information for understanding the project's structure, key 
 
 1. **Clone the repository:**
    ```bash
-   git clone <invalid URL removed>
+   git clone https://github.com/developedbyamin/holbertonschool-web-development.git
 
-(If your project has specific usage instructions, provide detailed step-by-step guidance here.)
 
 
 **Contribution Guidelines**
@@ -26,9 +25,5 @@ This README provides information for understanding the project's structure, key 
 - Adhere to code style conventions (if any).
 - Submit a pull request with clear descriptions of your changes.
 
-(Feel free to tailor these guidelines to your specific requirements and preferences.)
 
-This project is licensed under the [license name](https://license-link.org).
-
-
-![alt text](assets/school_page.png)# holbertonschool-web-development
+![alt text](assets/school_page.png)

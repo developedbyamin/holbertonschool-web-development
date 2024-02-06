@@ -27,6 +27,6 @@ This README provides information for understanding the project's structure, key 
 
 ## Snapshots
 
-![image](https://github.com/developedbyamin/holbertonschool-web-development/blob/main/html_advanced/assets/Screenshot%20from%202024-02-06%2019-29-05.png?raw=true)
+![image](https://github.com/developedbyamin/holbertonschool-web-development/blob/main/html_advanced/assets/school_page.png?raw=true)
 
 

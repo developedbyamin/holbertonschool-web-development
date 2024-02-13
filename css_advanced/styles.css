@@ -1,0 +1,324 @@
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('fonts/source-sans-pro.woff2') format('woff2'),
+         url('fonts/source-sans-pro.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background: url("../html_advanced/assets/background.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 100px;
+}
+.nav-links a{
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+    padding-right: 50px;
+}
+.get-school{
+    text-align: center;
+}
+.get-school .h1-school h1{
+    max-height: 130px;
+    font-size: 120px;
+    color: white;
+    margin: 8rem;
+}
+.get-school p{
+    display: inline-block;
+    margin-inline: 15px;
+    margin-top: 0px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+.get-school button{
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    background-color: #C271FF;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 15px 30px;
+    cursor: pointer;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2); 
+}
+.learn h2{
+    color: white;
+    font-weight: 100;
+    margin-top: 130px;
+    text-align: center;
+}
+.pink-text{
+    font-size: 32px;
+    font-weight: bold;
+    color: #C271FF;
+}
+.learn p{
+    font-size: 32px;
+    color: black;
+}
+.person-container{
+    margin: 55px 180px;
+    display: flex;
+    justify-content: space-between;
+}
+.person-container div{
+    text-align: center;
+}
+
+.person-container img {
+    border-radius: 50%; /* Rounds the corners of the image */
+}
+
+.person-container h3 {
+    color: white;
+    margin-top: 10px; /* Adds space above the heading */
+    font-size: 18px; /* Adjust font size as needed */
+}
+
+.person-container p {
+    font-size: 14px; /* Adjust font size as needed */
+    color: #b6b6b6; /* Sets text color to a dark gray */
+}
+.quote-container{
+    display: flex;
+    align-items: center;
+    background-color: #C271FF; /* Set background color for the quote container */
+    padding: 70px 250px; 
+}
+.quote-content {
+    color: rgb(255, 255, 255);
+    margin-left: 40px; /* Add margin to separate from the image */
+}
+
+blockquote {
+    font-size: 18px;
+    color:rgb(255, 255, 255);
+    background-color:#C271FF; /* Set background color for the quote block */
+}
+.quote-content p {
+    color:rgb(255, 255, 255);
+    margin: 5px 0; 
+}
+#bold {
+    font-size: 25px;
+    font-weight: bold;
+}
+#italic {
+    font-size: 25px;
+    font-style: italic;
+}
+
+.most-popular{
+    background-color: rgb(255, 255, 255); 
+    padding: 30px;
+}
+
+.most-popular h1{
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 30px;
+    background-color: rgb(255, 255, 255);
+}
+
+.box {
+    position: relative;
+    display: inline-block; /* or inline-flex, inline-grid, etc. depending on your layout needs */
+}
+
+.play-button {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px; /* Adjust the width of the play button */
+    height: 50px; /* Adjust the height of the play button */
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.play-button::after {
+    content: "\25B6"; /* Unicode character for a right-pointing triangle (play button) */
+    font-size: 24px; /* Adjust the size of the play icon */
+    color: #333; /* Adjust the color of the play icon */
+}
+
+.tutorial-items{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 45px;
+}
+.box h2{
+    color: #071629;
+    font-size: 16px;
+    margin: 12px 0px;
+    margin-left: 12px;
+}
+.box p{
+    color: gray;
+    font-size: 12px;
+    margin: 12px 0px;
+    margin-left: 12px;
+}
+
+
+.tutorial-items .box img {
+    max-width: 100%; /* Ensure images are responsive within their container */
+    border-radius: 10px;
+}
+
+.author-info {
+    display: flex; /* Arrange author info in a row */
+    align-items: center;
+    font-size: 12px; /* Align items vertically */
+}
+.author-info h3{
+    color: #C271FF;
+}
+
+.author-info img {
+    width: 30px; /* Set width for author image */
+    height: 30px; /* Set height for author image */
+    border-radius: 50%; /* Make author image round */
+    margin-right: 10px;
+    margin-left: 12px; /* Add margin to the right for spacing */
+}
+
+.main-stars{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 12px;
+}
+.main-stars p{
+    color: #C271FF;
+    font-weight: 700;
+}
+.stars {
+    font-size: 21px;
+}
+
+.star {
+    color: #C271FF;
+}
+.star.empty {
+    color: #ccc; /* Color for the empty star */
+}
+.stars div {
+    background-color: #f0f0f0; /* Set background color for duration info */
+    padding: 5px 10px; /* Add padding for spacing */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    margin-right: 10px; /* Add margin to the right for spacing */
+}
+
+.membership{
+    background-color: #071629;
+    padding: 40px 0px;
+}
+.membership h1{
+    color: #ffffff;
+    text-align: center;
+}
+
+.membership-info{
+    display: flex ;
+    justify-content: space-between;
+    
+    padding: 50px 40px;
+    color: #fff;
+}
+.membership-info .box{
+    text-align: center;
+}
+.membership-info .box h2{
+    padding: 15px;
+}
+
+button {
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    background-color: #C271FF;
+    color: white; 
+    border: none; 
+    border-radius: 20px; 
+    padding: 15px 30px; 
+    cursor: pointer; 
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3); 
+    font-weight: 1000;
+}
+
+.faq {
+    background-color: #ffffff;
+    padding: 40px 0px;
+}
+.faq h1{
+    color: #071629;
+    text-align: center;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 50px;
+}
+.faq-boxes{
+    display: flex ;
+    justify-content: space-between;
+    padding: 50px 150px;
+    color: black;
+}
+
+.faq-boxes .faq-box h2{
+    padding-bottom: 25px;
+    font-size: 16px;
+}
+
+.faq-boxes .faq-box{
+    width:33%;
+}
+
+.faq-boxes .faq-box p{
+    opacity: 0.5;
+}
+
+footer{
+    background-color:#071629;
+    padding: 70px 100px 20px 100px;    
+}
+footer i{
+    background-color: white;
+    padding: 10px 10px;
+    border-radius: 40%;
+    color: black;
+}
+
+.footer-items{
+    display: flex;
+    justify-content: space-between;
+}
+.footer1 p{
+    text-align: center;
+    padding-top: 70px;
+    color: #fff;
+    opacity: 0.3;
+}
+
